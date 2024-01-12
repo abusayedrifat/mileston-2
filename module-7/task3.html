@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body{
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+      }
+      .main-part{
+        margin: 50px;
+      }
+      button {
+        background-color: rgb(99, 136, 255);
+        padding: 10px 20px;
+        font-size: 1.1rem;
+        border: none;
+      }
+      .food-review {
+        display: flex;
+        width: 80%;
+        margin: 40px auto;
+        padding: 10px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        box-shadow: 3px 3px 30px rgba(169, 169, 169, 0.772);
+        gap: 40px;
+      }
+      .image-area {
+        width: 50%;
+      }
+      .image-area img {
+        width: 100%;
+      }
+      .text-area {
+        width: 50%;
+      }
+
+      .text-area h2 {
+        font-size: 1.8rem;
+      }
+      .text-area p {
+        font-size: 1.3rem;
+        margin: 30px 0;
+      }
+
+      @media screen and (max-width: 1000px) {
+        article.food-review {
+          display: block;
+          width: 100%;
+        }
+        .image-area {
+          width: 90%;
+          margin: 0 auto;
+        }
+        .text-area {
+          width: 88%;
+          margin: 30px auto;
+        }
+        .text-area p {
+          margin: 50px 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="main-part">
+      <article class="food-review">
+        <div class="image-area">
+          <img src="pexels-iryna-ilieva-3570410.jpg" alt="" />
+        </div>
+        <div class="text-area">
+          <h2>Lorem ipsum dolor sit amet.</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo iusto
+            laborum id modi atque nostrum nesciunt non explicabo hic quod quasi
+            aliquid suscipit mollitia omnis inventore, dolore soluta ea eos! Hic
+            beatae ratione dolorum laudantium voluptatum, quis saepe ad tempore?
+            Reprehenderit, nemo! Reprehenderit voluptas modi expedita beatae,
+            repudiandae consequatur suscipit.
+          </p>
+          <button>Read More</button>
+        </div>
+      </article>
+      <article class="food-review">
+        <div class="image-area">
+          <img src="pexels-kaichieh-chan-708777.jpg" alt="" />
+        </div>
+        <div class="text-area">
+          <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+            architecto, delectus laborum natus, commodi corporis facere libero
+            facilis sit sunt ab dolor recusandae iste a distinctio tempore
+            dignissimos quaerat nam.
+          </p>
+          <button>Read More</button>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 30px;
+        }
+        .food{
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+        .food img{
+            width: 100%;
+        }
+        @media screen and (max-width: 576px) {
+            .container{
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+            }
+            
+        }
+        @media screen and (min-width: 576px) and (max-width:768px) {
+            .container{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+        }
+        @media screen and (min-width:768px) and (max-width:992px) {
+            .container{
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <!-- .container>.food*12>img[src="pexels-iryna-ilieva-3570410.jpg"]+p{price - \$$00}+p>lorem20+br+button{Buy Now} -->
+
+    <div class="container">
+        <div class="food">
+            <img src="pexels-iryna-ilieva-3570410.jpg" alt="">
+            <p>price - $100</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex quae odio cumque eum, veniam eaque cum beatae aut quisquam exercitationem!<br><button>Buy Now</button></p>
+        </div>
+        <div class="food">
+            <img src="pexels-iryna-ilieva-3570410.jpg" alt="">
+            <p>price - $200</p>
+            <p>Dolorum suscipit omnis consequuntur earum magnam hic quibusdam saepe non, reprehenderit temporibus et, corrupti, praesentium inventore explicabo voluptatum. Natus, animi?<br><button>Buy Now</button></p>
+        </div>
+        <div class="food">
+            <img src="pexels-iryna-ilieva-3570410.jpg" alt="">
+            <p>price - $300</p>
+            <p>Tempora inventore ratione quis fuga consectetur, excepturi aspernatur aliquid magni recusandae iste odit magnam quo laudantium provident possimus beatae animi.<br><button>Buy Now</button></p>
+        </div>
+        <div class="food">
+            <img src="pexels-iryna-ilieva-3570410.jpg" alt="">
+            <p>price - $400</p>
+            <p>Architecto ullam, soluta quasi autem reprehenderit tempora consequuntur, alias voluptas impedit officiis consectetur? Quam at quasi itaque tempore, quod minima?<br><button>Buy Now</button></p>
+        </div>
+        <div class="food">
+            <img src="pexels-iryna-ilieva-3570410.jpg" alt="">
+            <p>price - $500</p>
+            <p>Voluptatibus, debitis cupiditate ea expedita nesciunt, at nulla delectus numquam soluta consequatur animi necessitatibus non consequuntur provident accusantium! Tenetur, sint!<br><button>Buy Now</button></p>
+        </div>
+        <div class="food">
+            <img src="pexels-iryna-ilieva-3570410.jpg" alt="">
+            <p>price - $600</p>
+            <p>Expedita inventore vel facilis at earum et omnis nemo ut, iusto sequi accusamus aliquid, cumque unde iste temporibus consequatur blanditiis!<br><button>Buy Now</button></p>
+        </div>
+        <div class="food">
+            <img src="pexels-iryna-ilieva-3570410.jpg" alt="">
+            <p>price - $700</p>
+            <p>Eos eligendi quidem provident quod consequuntur soluta dolor recusandae nobis, at beatae perferendis, dolorum temporibus ipsam maiores magnam. Quasi, voluptatum.<br><button>Buy Now</button></p>
+        </div>
+        <div class="food">
+            <img src="pexels-iryna-ilieva-3570410.jpg" alt="">
+            <p>price - $800</p>
+            <p>Quaerat dolore, accusamus odit ex modi blanditiis alias numquam explicabo. Quam voluptatum et consequatur dolorem eligendi tempora officiis, error omnis.<br><button>Buy Now</button></p>
+        </div>
+        <div class="food">
+            <img src="pexels-iryna-ilieva-3570410.jpg" alt="">
+            <p>price - $900</p>
+            <p>Quas iure non perferendis eaque! Totam ullam nesciunt optio, illo veritatis itaque atque repellat, rerum tenetur corrupti eveniet eos accusamus?<br><button>Buy Now</button></p>
+        </div>
+        <div class="food">
+            <img src="pexels-iryna-ilieva-3570410.jpg" alt="">
+            <p>price - $1000</p>
+            <p>Impedit quae nesciunt dolorum mollitia tempora esse accusamus, ea harum neque! Et culpa dolore tempore ipsa voluptatem nihil impedit suscipit.<br><button>Buy Now</button></p>
+        </div>
+        <div class="food">
+            <img src="pexels-iryna-ilieva-3570410.jpg" alt="">
+            <p>price - $1100</p>
+            <p>Error, ea laboriosam. Possimus doloremque tenetur sed ea quis deserunt reprehenderit fugit. Dolorem, obcaecati minima consectetur quae quo illo odio.<br><button>Buy Now</button></p>
+        </div>
+        <div class="food">
+            <img src="pexels-iryna-ilieva-3570410.jpg" alt="">
+            <p>price - $1200</p>
+            <p>Neque consequuntur possimus quas magni. Numquam, voluptas? Voluptates, unde. Voluptas, dolorum? Aliquam maiores repellendus voluptas quasi doloribus itaque quae perferendis!<br><button>Buy Now</button></p>
+        </div>
+    </div>
+</body>
+</html>

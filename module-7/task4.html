@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .textarea{
+            margin: 20px;
+        }
+        h1{
+            font-size: 1.9rem;
+        }
+        p{
+            margin:20px 0 0 0;
+            font-size: 1.3rem;
+        }
+        .main-container{
+            width: 96%;
+            margin: 50px auto;
+        }
+        .places{
+            display: flex;
+           width: 100%;
+           
+        }
+     
+        .places img{
+            height: 500px;
+            width: 50%;
+        }
+        @media screen and (max-width:576px) {
+            .main-container{
+                display: block;
+                width: 100%;
+            }
+            .places{
+                display:block;
+                display: 100%;
+            }
+            .places img{
+                width: 100%;
+            }
+            .places2{
+                display: flex;
+                flex-direction: column-reverse;
+            }
+        }
+       
+        @media screen and (min-width:576px) and (max-width:890px) {
+            .main-container{
+                display: block;
+                width: 100%;
+            }
+            .places{
+                display:block;
+                display: 100%;
+                margin: 0 auto;
+            }
+            .places img{
+                width: 60%;
+                height: 600px;
+                margin: 0 auto;
+            }
+            .places2{
+                display: flex;
+                flex-direction: column-reverse;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+   <div class="main-container">
+    <section class="places">
+       
+         
+                <img src="Screenshot 2024-01-11 195801.png" alt="" >
+           
+            <div class="textarea">
+                <h1>Lorem ipsum dolor sit amet.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti aspernatur vitae, iusto accusantium illo a nesciunt unde culpa dignissimos, asperiores architecto aliquid perspiciatis sunt saepe eaque odio soluta quisquam doloribus voluptatibus alias consectetur? Veritatis illo odit minus facere harum delectus.</p>
+                <p>Exercitationem doloremque dolore officia impedit delectus voluptate? Natus sunt incidunt consequatur ratione? Id doloremque atque consequatur rerum porro neque quam dolores numquam corporis suscipit omnis incidunt, architecto nam earum et laudantium ipsum enim reiciendis nobis accusamus saepe aliquid. Excepturi, officiis.</p>
+            </div>
+           
+       
+    </section>
+    <section class="places places2">
+        <div class="textarea">
+            <h1>Lorem ipsum dolor sit amet consectetur adipisicing.</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident, necessitatibus. Inventore voluptatibus quidem, impedit ipsam molestiae non qui suscipit quam laudantium omnis, voluptatum amet architecto incidunt repellendus explicabo, facere recusandae quos doloremque. Facere sapiente aliquam accusamus dolor officiis inventore praesentium!</p>
+            <p>Beatae vel sed ratione velit itaque doloribus, expedita laudantium architecto omnis? Cum nulla asperiores, ratione dolorum dignissimos autem distinctio magni adipisci aperiam repellendus rem, fugit itaque minus totam ad quisquam quae ut eveniet natus. Impedit tempore incidunt eum aperiam blanditiis.</p>
+        </div>
+     
+            <img src="pexels-arralyn-2402926.jpg" alt="">
+      
+        
+        
+    </section>
+   </div>
+</body>
+</html>

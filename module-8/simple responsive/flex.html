@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: flex;
+      }
+      h2{
+        text-align: center;
+        margin-top: 40px;
+      }
+      .box {
+        background-color: purple;
+        width: 45%;
+        margin: 40px auto;
+        border: none;
+        border-radius: 5px;
+      }
+      .box p {
+        color: rgb(234, 234, 234);
+        font-size: 1.4rem;
+        padding: 20px;
+      }
+      .container2{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        height: 600px;
+      }
+      .item{
+        height: 100px;
+        width: 200px;
+        border-radius: 5px;
+        background-image: linear-gradient(305deg, rgb(117, 9, 117), rgb(95, 20, 160));
+        color: whitesmoke;
+        position: relative;
+      }
+      .item p{
+        margin-top: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-size: 1.5rem;
+      }
+      .grid-section{
+        width: 80%;
+        justify-content: center;
+      }
+      .block-container{
+        width: 100%;
+      }
+      @media screen and (max-width:576px) {
+        .container{
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .box{
+            width: 100%;
+            margin: 0 auto;
+            margin: 0 0 30px 0;
+        }
+        .container2{
+          display: block;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        
+        }
+        .item{
+          width: 100%;
+        height: 150px;
+        margin-bottom: 20px;
+        font-size: 1.5rem;
+        box-shadow: 3px 3px 10px rgba(128, 128, 128, 0.501);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h2>Flexible Box</h2>
+    <div class="container">
+      <div class="box">
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint,
+          deserunt necessitatibus, ab fuga nemo, facere neque recusandae vitae
+          maiores sunt maxime vel cupiditate aut tempora reprehenderit laborum
+          enim deleniti libero! Lorem ipsum dolor, sit amet consectetur
+          adipisicing elit. Tenetur eos, aut omnis at magnam error. Fuga
+          blanditiis facilis deleniti neque rerum repudiandae, magni accusantium
+          dolorem tenetur, cupiditate voluptate odit quasi!
+        </p>
+      </div>
+      <div class="box">
+        <p>
+          Obcaecati voluptatem eaque dicta perspiciatis sint totam illum
+          assumenda modi deleniti eos minus rerum dolore dolores autem quidem
+          veritatis quae, velit minima nulla cupiditate maxime culpa? Magni
+          culpa voluptatibus unde. Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Praesentium nobis cupiditate culpa facere minima
+          nemo quia, a atque dolorem minus eveniet, soluta suscipit, ab nulla
+          quos. Recusandae blanditiis asperiores, dicta saepe quo vel corporis
+          ab iste! Molestias recusandae accusantium cumque.
+        </p>
+      </div>
+    </div>
+   <section>
+    <div class="container2">
+      <div class="item"><p>Item - 1</p></div>
+      <div class="item"><p>Item - 2</p></div>
+      <div class="item"><p>Item - 3</p></div>
+      <div class="item"><p>Item - 4</p></div>
+      <div class="item"><p>Item - 5</p></div>
+      <div class="item"><p>Item - 6</p></div>
+      <div class="item"><p>Item - 7</p></div>
+      <div class="item"><p>Item - 8</p></div>
+      <div class="item"><p>Item - 9</p></div>
+      <div class="item"><p>Item - 10</p></div>
+      <div class="item"><p>Item - 11</p></div>
+      <div class="item"><p>Item - 12</p></div>
+      <div class="item"><p>Item - 13</p></div>
+      <div class="item"><p>Item - 14</p></div>
+      <div class="item"><p>Item - 15</p></div>
+      <div class="item"><p>Item - 16</p></div>
+      <div class="item"><p>Item - 17</p></div>
+      <div class="item"><p>Item - 18</p></div>
+      <div class="item"><p>Item - 19</p></div>
+      <div class="item"><p>Item - 20</p></div>
+  </div>
+   </section>
+
+    </main>
+  </body>
+</html>

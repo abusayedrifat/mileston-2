@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Lato:wght@300;400;700;900&family=Merriweather:wght@300;400;700;900&family=Work+Sans:wght@400;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Work Sans', sans-serif;
+}
+.btn-primary{
+    padding: 20px 25px;
+    border: none;
+    border-radius: 8px;
+background: #FF900E;
+color: #FFF;
+font-size: 20px;
+font-weight: 600;
+cursor: pointer;
+}
+
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 30px 220px;
+    margin-bottom: 100px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+.nav-title{
+    color: #131313 ;
+    font-size: 2.8rem;
+font-weight: 700;
+}
+nav > ul{
+    display: flex;    
+}
+nav ul li{
+    margin-right: 30px;
+}
+nav ul li a{
+    color:  #424242;
+text-align: center;
+font-size: 18px;
+font-weight: 500;
+line-height: 26px;
+}
+/* banner style */
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-content{
+   max-width: 862px;
+   text-align: center;
+   margin: 50px auto;
+}
+.banner-title{
+    color:#131313;
+font-size: 4rem;
+font-weight: 700;
+}
+.banner-description{
+    color:#727272;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+margin: 40px 0;
+}
+.banner img{
+    width: 100%;
+}
+
+/* main styles */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* teams style */
+.teams-container{
+    display: flex;
+    align-items: center;
+    padding: 0 100px;
+    gap: 70px;
+}
+.teames-img-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+
+/* responsive styles */
+@media screen and (max-width:576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+       
+    }
+    nav ul{
+        margin-top:40px ;
+    }
+}  

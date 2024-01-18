@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box-container1{
+            border: 1px dashed black;display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .outer{
+            
+            height: 100px;
+            width: 200px;
+            border: 2px solid salmon;
+            background-color: cadetblue;
+           border-radius: 3px;
+           /* transition: property name | duration(s) | easing fun. | delay */
+            transition:background-color 3s ease , transform 3s ease-in-out 0.1s;
+        }
+        .outer:hover{
+            background-color: rgb(252, 48, 25);
+          
+           transform: translate(150px ,100px)  rotate(45deg);
+        }
+    </style>
+</head>
+<body>
+   <div class="box-container1">
+    <div class="outer"></div>
+    <div class="outer"></div>
+    <div class="outer"></div>
+    <div class="outer"></div>
+    <div class="outer"></div>
+    <div class="outer"></div>
+    <div class="outer"></div>
+    <div class="outer"></div>
+    <div class="outer"></div>
+    <div class="outer"></div>
+  
+   </div>
+   <!-- if you wish you can change these commented div -->
+<!-- 
+   <div class="box-container-2">
+    <div class="big-box"></div>
+    <div class="big-box"></div>
+    <div class="very-big-box"></div>
+    <div class="big-box"></div>
+    <div class="big-box"></div>
+   </div> -->
+</body>
+</html>
